@@ -1,0 +1,14 @@
+git config --global user.name sushant
+git config --global user.email "sushantagrawal2007@gmail.com"
+touch .gitignore
+git init
+git add .
+git commit -m "Initial commit"
+git status
+git remote add origin git@github.com:Sushant2001/Memepage.git
+git push origin master
+ssh-keygen -t ed25519 -C "sushantagrawal2007@gmail.com"
+tail <path to id_rsa.pub> #paste this to your account(copy from github)
+git remote add origin <ssh url.git> 
+ cat  /c/Users/jmd/.ssh/id_ed25519.pub
+git push origin master
