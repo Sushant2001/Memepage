@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+block style 
+    style 
+        include ../static/style.css
+block content
+    section#introSection 
+        div Welcome to SarcasticCrap-Follow for some cheesy memes folks!!!!
+        div.small We have more than 1000 happy followers with us !
+    section#missionSection 
+        h4 Our Offerings!
+        div.card
+           h3  For real Enthusiasts!
+           div.card-box
+               div.card-img 
+                    img(src="/static/sse.jpg")
+                   
+               div.card-content
+                   p Best Dance academy....
+        div.card
+            h3  Be the best!
+            div.card-box
+                div.card-img
+                    img(src="/static/nna.png")
+                div.card-content
+                     p Expert in teaching....
+        div.card
+           h3  Dance as you wish!
+           div.card-box
+               div.card-img
+                   img(src="/static/kks.png")
+
+               div.card-content
+                    p Best Choreographers!....
+    section#sponsorsSection 
+        h3 Our Sponsors
+        div#sponsors
+            img(src="/static/pl.png",alt="sponsor Image",class="spImage")
+            img(src="/static/yo.png",alt="sponsor Image",class="spImage")
+            img(src="/static/nn.png",alt="sponsor Image",class="spImage")
+            img(src="/static/la.png",alt="sponsor Image",class="spImage")        
